@@ -1,0 +1,138 @@
+@charset "utf-8";
+
+/*
+   Final Exam
+   
+   Author:   Matthew Metcalf
+   Date:     12/13/2020
+   
+   Filename: finalexam.css
+   
+   This file contains my final exam webpage
+*/
+
+/* ===========
+   Base Styles
+   ===========
+*/
+
+
+/* HTML and Body Styles */
+
+html {
+   background: url(tf_back1.png) center center / cover no-repeat fixed;
+   height: 100%;
+   font-family: Verdana, Geneva, sans-serif;
+   font-size: 12px;
+}
+body{
+f
+ont-family: Arial, Helvetica, sans-serif;
+color: black;
+font-size: 16px;
+width: 85%;
+margin: auto;
+background-color: maroon;
+opacity: 1;
+  
+}
+h1{
+font-size: 36px;
+margin-top: 35px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 15px;
+padding-right: 0px;
+padding-bottom: 0px;
+padding-left: 15px;
+background-color: yellow;
+  
+  
+}
+h3{
+font-size: 24px;
+margin-top: 05px;
+margin-bottom: 0px;
+margin-right: 0px;
+margin-left: 0px;
+padding-top: 15px;
+padding-right: 0px;
+padding-bottom: 15px;
+padding-left: 15px;
+background-color: yellow;
+  
+}
+
+header .articlehead{
+    font-family: arial;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 24pt;
+    text-align: center;
+    padding: 15px 0px 10px 15px;
+    background-color: #039e56;
+}
+
+h3{
+    font-family: arial;
+    font-size: 16pt;
+    text-align: left;
+}
+
+p{
+    margin: 15px;
+    padding: 15px;
+}
+
+header nav#mainLinks{
+    width: 20%;
+    height: 1240px;
+    float: left;
+    position: relative;
+    background-color: #03a85b;
+    list-style: none;
+    list-style-image: none;
+}
+
+
+
+article{
+    float: right;
+    width: 80%;
+    background-color: #31eb95;
+}
+
+/* table style */
+section table{
+    width: 100%;
+}
+
+section table tr th{
+    text-align: center;
+    background-color:seagreen;
+    color: white;
+}
+
+section table tr td{
+    font-size: 16px;
+}
+
+ /* Footer Styles */
+footer {
+	background-color: #0a5e37;
+	color: white;	
+    padding: 25px;
+    text-align: center;
+    margin-top: 50px;
+
+}
+footer header img{
+   width: 300px;
+   height: 300px;  
+}
+
+footer header  h3{
+    text-align: center;
+}
